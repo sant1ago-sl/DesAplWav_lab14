@@ -40,4 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.vercel
+# local assistant/docs files
+AGENTS.md
+CLAUDE.md
+README.md
