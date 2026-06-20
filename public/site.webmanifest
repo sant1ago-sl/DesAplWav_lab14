@@ -1,0 +1,10 @@
+{
+  "name": "Santiago Salas Portfolio",
+  "short_name": "Santiago",
+  "description": "Portafolio personal de Santiago Salas con enfoque en SEO y desarrollo web.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "lang": "es"
+}

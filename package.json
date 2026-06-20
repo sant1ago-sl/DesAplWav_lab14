@@ -1,7 +1,14 @@
 {
   "name": "my-portafolio",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Portafolio personal SEO optimizado de Santiago Salas",
   "private": true,
+  "author": "Santiago Salas",
+  "homepage": "https://my-portafolio-omega.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sant1ago-sl/DesAplWav_lab14.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -53,7 +53,6 @@ export const metadata: Metadata = {
     title: `${personalInfo.name} - ${personalInfo.title}`,
     description: personalInfo.description,
     images: ["/portfolio-visual.png"],
-    creator: "@tuusuario",
   },
   robots: {
     index: true,
