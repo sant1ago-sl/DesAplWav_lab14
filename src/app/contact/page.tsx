@@ -94,7 +94,7 @@ export default function ContactPage() {
                     name="email"
                     type="email"
                     className="w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-900 outline-none transition focus:border-blue-500"
-                    placeholder="tu@email.com"
+                    placeholder="santiago.salas@tecsup.edu.pe"
                   />
                 </div>
                 <div>
@@ -109,7 +109,7 @@ export default function ContactPage() {
                     name="message"
                     rows={6}
                     className="w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-900 outline-none transition focus:border-blue-500"
-                    placeholder="Cuéntame sobre tu proyecto"
+                    placeholder="Cuentame sobre tu proyecto"
                   />
                 </div>
                 <a

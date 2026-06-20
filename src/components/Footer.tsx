@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} {personalInfo.name}. Todos los derechos
-            reservados.
+            &copy; {new Date().getFullYear()} {personalInfo.name}. Todos los
+            derechos reservados.
           </p>
 
           <div className="flex gap-6">
