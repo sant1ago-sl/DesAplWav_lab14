@@ -24,10 +24,12 @@ export const metadata: Metadata = {
   description: personalInfo.description,
   keywords: [
     "desarrollador web",
-    "full stack",
-    "next.js",
+    "frontend",
+    "python",
+    "django",
     "react",
-    "typescript",
+    "java",
+    "kotlin",
     "portafolio personal",
   ],
   authors: [{ name: personalInfo.name }],
@@ -80,7 +82,7 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-gray-50">
+      <body className="flex min-h-full flex-col bg-slate-50">
         <Header />
         <main className="grow">{children}</main>
         <Footer />

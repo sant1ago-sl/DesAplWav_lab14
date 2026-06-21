@@ -8,25 +8,31 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Proyectos - Portafolio",
     description: "Explora mi coleccion de proyectos de desarrollo web",
-    images: ["/og-projects.jpg"],
+    images: ["/portfolio-visual.png"],
   },
 };
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen bg-[linear-gradient(180deg,_#f8fafc_0%,_#eff6ff_100%)]">
-      <div className="container mx-auto px-4 py-12">
-        <h1 className="mb-4 text-4xl font-bold text-gray-900">Mis Proyectos</h1>
-        <p className="mb-12 text-lg text-gray-600">
-          Una coleccion de proyectos en los que he trabajado
-        </p>
-
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
-          ))}
+    <main className="bg-slate-50 text-slate-900">
+      <section className="border-b border-slate-200 bg-white">
+        <div className="container mx-auto px-4 py-14">
+          <h1 className="text-4xl font-semibold text-slate-950">Proyectos</h1>
+          <p className="mt-4 max-w-2xl text-base leading-8 text-slate-600">
+            Una seleccion de trabajos y practicas que representan mi proceso.
+          </p>
         </div>
-      </div>
+      </section>
+
+      <section className="bg-slate-50">
+        <div className="container mx-auto px-4 py-14">
+          <div className="grid gap-6 lg:grid-cols-3">
+            {projects.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
